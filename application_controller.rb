@@ -8,7 +8,7 @@ class ApplicationController < Sinatra::Base
   end
   
   post '/social' do
-    erb :family_1
+    erb :social_1
   end
 
 
