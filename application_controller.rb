@@ -8,8 +8,19 @@ class ApplicationController < Sinatra::Base
   end
   
   post '/social' do
+    if params["cat"] == "social"
     erb :social_1
-  end
-
+    erb :social_2
+    erb :social_3
+    erb :social_4
+    end
+    
+  post '/school' do 
+    if params["cat"] == "school"
+    erb :social_1
+    erb :social_2
+    erb :social_3
+    erb :social_4
+    end
 
 end
