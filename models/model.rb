@@ -6,7 +6,11 @@ ad2 = "You have moderate anxiety which mean that you have somewhat lost perspect
   
 ad3 = "If you are seriously stressed and you feel that your problem is too big to handle then it is definitely time to talk to an adult.  Talk to someone that you trust and if you are panicking tell them this so they can help you feel safe and assured.  Try talking to someone older, a mentor or person that you trust about your issue and take their views into consideration.  A second opinion is always good for getting things back into perspective and shining a new light on a solution from a different angle"
   
-ad4 = "You are now to a point where you have reached panic, you are experiencing dread.  Most rationalization has exited your mind and left you feeling scared and out of control.  Its best now to decide to seek professional help as you may be a danger to yourself as well as not in as stable mind set. if you are feeling suicidal or like you may need real help from a professional her are some sites and hot lines you can turn to:"
+ad4 = "You are now to a point where you have reached panic, you are experiencing dread.  Most rationalization has exited your mind and left you feeling scared and out of control.  Its best now to decide to seek professional help as you may be a danger to yourself as well as not in as stable mind set. if you are feeling suicidal or like you may need real help from a professional here are some sites and hotlines you can turn to: <br>
+<br> If you would like to look into therapy: https://therapists.psychologytoday.com/rms/
+<br> If you think you may need professional psychiatric help: http://www.mentalhealthamerica.net/finding-help
+<br> 24-Hour Crisis Hotline: (212) 673-3000
+"
   
   if (cat == "social") && (level == "1")
     return ad1
