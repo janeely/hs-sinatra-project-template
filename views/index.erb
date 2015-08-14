@@ -1,18 +1,17 @@
  <!DOCTYPE html>
 <html>
 <head>
-<title>Calm Down</title>
+<title>Don't Worry, Be Happy</title>
   <meta charset="UTF-8">
   <link type= "text/css" rel= "stylesheet" href= "css/style.css">
 </head>
 <body>
-  <h1>It's time to chill out!</h1>
-
-<h1>Feeling stressed? Let us help you calm down!</h1>
-<p>This is a paragraph.</p>
+<h1>It's time to relax!</h1>
+<h2>Everyone gets stressed or anxious from time to time, but sometimes all you need is a good laugh or smile.  Follow these steps to help you feel better!</h2>
+<p> Choose a stressor and rate your level of anxiety</p>
 <form method="POST" action="/social">
   
-  <p> Choose your stressor</p>
+  
   <input type ="radio" name="cat" value="social"> Social
   <br/>
     
@@ -23,17 +22,27 @@
   <br/>
   
   <input type="radio" name="cat" value="other"> Other
+  <br/> <br/> <br/> <br/>
+ 
+
+ 
+  <input type="radio" class="horizontal" name="level" value="1" style="margin-left:260px">
+  
+  <input type="radio" class="horizontal" name="level" value="2">
+  
+  <input type="radio" class="horizontal" name="level" value="3">
+  
+  <input type="radio" class="horizontal" name="level" value="4">
+  
+    <img src= "images/FotoFlexer_Photo.jpg" width= "800" height= "200" style="margin-left:175px">
   <br/>
   
-  <input type="radio" name="level" value="1">
-  
-  <input type="radio" name="level" value="2">
-  
-  <input type="radio" name="level" value="3">
-  
-  <input type="radio" name="level" value="4">
-  
-  <input type="submit" value="submit">
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+
+  <input type="submit" value="Submit">
   
   </form>
 </body>
