@@ -1,5 +1,6 @@
 require 'bundler'
 Bundler.require
+require_relative 'models/model.rb'
 
 class ApplicationController < Sinatra::Base
 
@@ -12,19 +13,16 @@ class ApplicationController < Sinatra::Base
    
     if params["cat"] == "social" 
     erb :social_1
-    end 
       
     elsif params["cat"] == "school"
       erb :school_1
-    end
   
   elsif params["cat"] == "family"
       erb :family_1
-    end
   
   elsif params["cat"] == "other"
     erb :other_1
   end 
-  
+ 
 end
 end
